@@ -17,7 +17,15 @@
     <style>
         .font-popins{
              font-family: "Poppins", sans-serif;
-        } 
+        }
+        .hr-b{
+            display: flex;
+            justify-content: center;
+        }
+        .border-b{
+            border-bottom: 2px solid red;
+            width: 90px;
+        }
     </style>
 
 <!-- Tail wind cdn  -->
@@ -56,7 +64,7 @@
                     <li><a>Contact</a></li>
                 </ul>
                 </div>
-                <a class="font-bold text-xl">Bike Dekho</a>
+                <a class="font-bold text-xl">Bike BD</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
@@ -156,7 +164,7 @@
 
                         <!-- image container  -->
                         <div class="flex-1 p-12 lg:p-24">
-                            <img src="images/slider/bike3.png"
+                            <img src="images/slider/bike4.png"
                             class="w-full  lg:w-9/12" />
                         </div> 
                 
@@ -169,10 +177,224 @@
         </div>
 
      </Header>
-     
+
 
      <!-- main section -->
-      <main class="md:container md:mx-auto lg:px-5"></main>
+      <main class="md:container md:mx-auto lg:px-[45px]">
+
+        <!-- featired bike section  -->
+         <section class="my-24">
+            <h1 class="text-5xl font-bold text-center mb-4 ">Fetured Bikes In This Year</h1>
+            <p class="text-red-500 text-md  text-center">Best bike collection</p>
+          <div class="hr-b">
+              <hr class="border-b">
+          </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 mt-14">
+                <div class="card bg-base-100  shadow-sm">
+                <figure>
+                    <img class="mb-4 lg:mb-0"
+                    src="./images/others/feature-bike.png"
+                    alt="Bikes" />
+                </figure>
+                </div>
+
+                <div class="card bg-base-100  shadow-sm">
+                <figure>
+                    <img class="mb-4 lg:mb-0"
+                    src="./images/others/bike3.png"
+                    alt="Bikes" />
+                </figure>
+                </div>
+
+                <div class="card bg-base-100  shadow-sm">
+                <figure>
+                    <img class="mb-4 lg:mb-0"
+                    src="./images/others/feature-bike.png"
+                    alt="Bikes" />
+                </figure>
+                </div>
+            </div>
+
+         </section>
+
+
+         <!-- latest bikes section  -->
+          <section class="my-24">
+                <h3 class="text-5xl font-bold text-center mb-12">Latest Bikes</h3>
+
+                <!-- cards  -->
+                 <div class="grid grid-cols-1  lg:grid-cols-3 gap-5">
+                    <!-- card-1  -->
+                     <div class="p-4 border border-gray-200 rounded-xl">
+                        <div class="card bg-base-100  shadow-sm">
+                            <figure>
+                                <img
+                                src="images/others/latest1.png" />
+                            </figure>
+                            <div class="card-body">
+                                <h2 class="card-title font-bold text-2xl">Ducati XDIAVEL S-73</h2>
+                                <p>
+                                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at. 
+                                </p>
+                                
+                                <div class="card-actions mt-5">
+                                <!-- <button class="btn btn-primary">Buy Now</button> -->
+                                <button class="btn bg-bike-primary text-white px-5">Read More</button>
+                                </div>
+                            </div>
+                            </div>
+                     </div>
+
+                     <!-- card-2  -->
+                     <div  class="p-4 border border-gray-200 rounded-xl">
+                        <div class="card bg-base-100  shadow-sm">
+                            <figure>
+                                <img
+                                src="images/others/latest2.png" />
+                            </figure>
+                            <div class="card-body">
+                                <h2 class="card-title font-bold text-2xl">Motorcycles & Scooters</h2>
+                                <p>
+                                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at. 
+                                </p>
+                                
+                                <div class="card-actions mt-5">
+                                <!-- <button class="btn btn-primary">Buy Now</button> -->
+                                <button class="btn bg-bike-primary text-white px-5">Read More</button>
+                                </div>
+                            </div>
+                            </div>
+                     </div>
+
+                     <!-- card-3  -->
+                     <div  class="p-4 border border-gray-200 rounded-xl">
+                        <div class="card bg-base-100  shadow-sm">
+                            <figure>
+                                <img
+                                src="images/others/latest3.png" />
+                            </figure>
+                            <div class="card-body">
+                                <h2 class="card-title font-bold text-2xl">2021 Honda CBR500R</h2>
+                                <p>
+                                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at. 
+                                </p>
+                                
+                                <div class="card-actions mt-5">
+                                <!-- <button class="btn btn-primary">Buy Now</button> -->
+                                <button class="btn bg-bike-primary text-white px-5">Read More</button>
+                                </div>
+                            </div>
+                            </div>
+                     </div>
+                 </div>
+          </section>
+
+          <!-- Happay clients section  -->
+          <section class="my-24">
+                <h3 class="text-5xl font-bold text-center my-12">Happy <span class="text-orange-600">Clients says</span></h3>
+
+             <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+                <!-- card 1 -->
+                     <div class="card bg-base-100  shadow-sm border-2 border-gray-200 mx-8">
+                    <figure class="px-10 pt-10">
+                        <img class="w-1/2"
+                        src="images/others/user-1.png"
+                        alt="image"
+                        class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <p>
+                            Slate helps you see how 
+                            many more days you need 
+                            to work to reach your financial 
+                            goal for the month and year.
+                        </p>
+                           <div class="flex space-x-1">
+                            <img class="w-6 h-5" src="images/icons/star-solid.png" alt="">
+                             <img class="w-6 h-5" src="images/icons/star-solid.png" alt="">
+                              <img class="w-6 h-5" src="images/icons/star-solid.png" alt="">
+                               <img class="w-6 h-5" src="images/icons/star-solid.png" alt="">
+                            <img class="w-6 h-5" src="images/icons/star-regular.png" alt="">
+                           </div>
+
+                              <h2 class="card-title text-blue-500 font-semibold mt-4 mb-2">Regina Miles</h2>
+                      
+                             <h3 class="card-title font-semibold">
+                               Banker
+                            </h3>
+                      </div>
+                  </div>
+
+
+                   <!-- card 2 -->
+                    <div class="card bg-base-100  shadow-sm border-2 border-gray-200 mx-8">
+                    <figure class="px-10 pt-10">
+                        <img class="w-1/2"
+                        src="images/others/user-2.png"
+                        alt="image"
+                        class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <p>
+                            Slate helps you see how 
+                            many more days you need 
+                            to work to reach your financial 
+                            goal for the month and year.
+                        </p>
+                            <div class="flex space-x-1">
+                            <img class="w-6 h-5" src="images/icons/star-solid.png" alt="">
+                             <img class="w-6 h-5" src="images/icons/star-solid.png" alt="">
+                              <img class="w-6 h-5" src="images/icons/star-solid.png" alt="">
+                               <img class="w-6 h-5" src="images/icons/star-solid.png" alt="">
+                            <img class="w-6 h-5" src="images/icons/star-regular.png" alt="">
+                           </div>
+                             <h2 class="card-title text-blue-500 font-semibold mt-4 mb-2">Regina Miles</h2>
+                      
+                             <h3 class="card-title font-semibold">
+                               Banker
+                            </h3>
+                      </div>
+                  </div>
+
+
+                   <!-- card 3 -->
+                     <div class="card bg-base-100  shadow-sm border-2 border-gray-200 mx-8">
+                    <figure class="px-10 pt-10">
+                        <img class="w-1/2"
+                        src="images/others/user-3.png"
+                        alt="image"
+                        class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <p>
+                            Slate helps you see how 
+                            many more days you need 
+                            to work to reach your financial 
+                            goal for the month and year.
+                        </p>
+                           <div class="flex space-x-1">
+                            <img class="w-6 h-5" src="images/icons/star-solid.png" alt="">
+                             <img class="w-6 h-5" src="images/icons/star-solid.png" alt="">
+                              <img class="w-6 h-5" src="images/icons/star-solid.png" alt="">
+                               <img class="w-6 h-5" src="images/icons/star-solid.png" alt="">
+                            <img class="w-6 h-5" src="images/icons/star-regular.png" alt="">
+                           </div>
+                         
+
+                             <h2 class="card-title text-blue-500 font-semibold mt-4 mb-2">Regina Miles</h2>
+                      
+                             <h3 class="card-title font-semibold">
+                               Banker
+                            </h3>
+                      </div>
+                  </div>
+
+
+
+            </div>
+           </section>     
+      </main>
 
       <!-- footer section  -->
        <footer></footer>
