@@ -9,6 +9,10 @@
      <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+
     <!-- google fonts  -->
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -292,7 +296,7 @@
 
           <!-- Happay clients section  -->
           <section class="my-24">
-                <h3 class="text-5xl font-bold text-center my-12">Happy <span class="text-orange-600">Clients says</span></h3>
+                <h3 class="text-5xl font-bold text-center my-12">Happy <span class="text-bike-primary">Clients says</span></h3>
 
              <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
                 <!-- card 1 -->
@@ -393,10 +397,91 @@
 
 
             </div>
+           </section>    
+           
+           
+            <!-- Frequintly ask question section  -->
+          <section class="my-24">
+                <h3 class="text-5xl font-bold text-center my-12">Frequently Asked <span class="text-bike-primary">Questions</span></h3>
+
+
+            <div class="hero bg-base-200 min-h-screen">
+                <div class="hero-content flex-col lg:flex-row">
+                    <img
+                    src="images/others/faq.png"
+                    class="max-w-sm rounded-lg "
+                    />
+                    <div>
+                    
+                    <div class="collapse  collapse-arrow bg-base-100 border border-base-300">
+                    <input type="radio" name="my-accordion-2" checked="checked" />
+                    <div class="collapse-title font-semibold">How do I create an account?</div>
+                    <div class="collapse-content text-sm">Click the "Sign Up" button in the top right corner and follow the registration process.</div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title font-semibold">I forgot my password. What should I do?</div>
+                    <div class="collapse-content text-sm">Click on "Forgot Password" on the login page and follow the instructions sent to your email.</div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title font-semibold">How do I update my profile information?</div>
+                    <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to make changes.</div>
+                    </div>
+
+                    <button class="btn btn-primary">Get Started</button>
+
+                    </div>
+
+                </div>
+            </div>
            </section>     
       </main>
 
       <!-- footer section  -->
-       <footer></footer>
+        <footer class="grid grid-cols-1 md:grid-cols-2 lg:justify-between  bg-black 
+        text-gray-200 lg:p-10 p-4 lg:px-32">
+        
+        <!-- for next and nav      -->
+        <div>
+            <!-- nav link-1  -->
+            <div class="mb-4">
+                <ul class="flex space-x-2">
+                    <li><a class="text-base" href="#">Download Now</a></li>
+                    <li><a class="text-base" href="#">License</a></li>
+                </ul>
+            </div>
+
+            <!-- nav link-2  -->
+             <div class="mb-4">
+                <ul class="flex space-x-2">
+                    <li><a class="text-sm" href="#">About</a></li>
+                    <li><a class="text-sm" href="#">Features</a></li>
+                    <li><a class="text-sm" href="#">Pricing</a></li>
+                    <li><a class="text-sm" href="#">Careers</a></li>
+                    <li><a class="text-sm" href="#">Help</a></li>
+                    <li><a class="text-sm" href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="hidden md:block">
+                <small>© 2020 bike. All rights reserved</small>
+            </div>
+        </div>
+
+        <!-- for logo  -->
+         <div class="md:place-items-end">
+            <div class="mt-4 lg:mt-0 mb-8 p-0">
+            <p class="mb-4">Get the App</p>
+            <img class="w-1/2 mb-4" src="images/others/ios.png" alt="">
+            <img class="w-1/2"  src="images/others/android.png" alt="">
+            </div>
+         </div>
+
+
+            <div class="block md:hidden">
+                <small>© 2020 bike. All rights reserved</small>
+            </div>
+        </footer>
 </body>
 </html>
